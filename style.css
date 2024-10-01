@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 99%;
+    height: 97%;
+    background-size: cover;
+    background-image: url(WhatsApp\ Image\ 2024-08-10\ at\ 22.30.27_f523e786.jpg);
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 40px;
+}
+
+.logo{
+    font-size: 30px;
+    color: orange;
+    font-family:cursive;
+}
+.logo:hover{
+    font-weight: 700;
+    letter-spacing: 0.0.5rem;
+    color: white;
+}
+
+.nav{
+    position: relative;
+    left: -180px;
+}
+
+a{
+    padding: 5px 15px;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-underline-position: under;
+    text-decoration: underline;
+}
+
+.search{
+    font-size: 25px;
+}
+
+.search i {
+    padding: 5px 20px;
+    color:black;
+}
+
+/* Heading Section */
+/* Right section */
+
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+    color: orange;
+}
+
+.right{
+    width: 440px;
+    height: 440px;
+    background-image: url(image-1.png);
+    background-size: cover;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right::before{
+    height: 430px;
+    width: 430px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 430px;
+    padding: 10px;
+}
+
+.right:hover{
+    width: 450px;
+    height: 450px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Left section */
+
+.left:nth-child(1){
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.left h1{
+    font-size: 90px;
+    color: white;
+}
+
+.left h1:hover{
+    color: orange;
+    text: shadow 34px; orange;
+}
+
+.left padding:nth-child(3){
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.left button{
+    width: 164px;
+    height: 43px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+    background: orange;
+    font-weight: 700;
+}
+
+.left button:hover{
+    box-shadow: 0 0 1px orange,
+    0 0 17px orange, 0 0 18px orange,
+    0 0 30px orange, 0 0 40px orange;
+    transition: 0.2s ease;
+}
+
+/* social media icons */
+
+.socialMedia{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    color: black;
+    font-size: 25px;
+}
+
+.socialMedia i:hover{
+    color: white;
+}
+
+#food1, #food2{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+
+#food1:hover{
+    width: 120px;
+    height: 120px;
+    transition: 0.2s ease-in-out;
+}
+
+#food2:hover{
+    width: 120px;
+    height: 120px;
+    transition: 0.2s ease-in-out;
+}
+
+#food1{
+    background-image: url(image-1.png);
+}
+
+#food2{
+    background-image: url(image-2.avif)
+}
+
+.menu{
+    display: flex;
+    margin: -9px 100px;
+}
